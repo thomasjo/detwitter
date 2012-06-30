@@ -34,11 +34,25 @@ In addition, how is discovery supposed to work? How do we make sure this
 works behind a firewall, router with NAT and similar?
 
 
+## Hurdles that most likely needs to be crossed
+ 1. Discovery.
+ 2. Routing.
+ 3. Secure, tamper-proof messaging.
+ 4. Firewall and NAT workarounds.
+ 5. Redundancy algorithm(s).
+ 6. Distributed queries (e.g. search).
+ 7. ?
+
+Once all (or at least most) hurdles have been crossed, we need to begin
+defining and documenting a basic protocol. A formal protocol is necessary
+for all connected clients to communicate.
+
+
 ## Resources
-- [Paper describing and comparing Gnutella and Freenet][2]
-- [The original Freenet paper][3]
-- [Distributed routing as employed in Freenet][4]
-- [The Dark Freenet][5]
+ -  [Paper describing and comparing Gnutella and Freenet][2]
+ -  [The original Freenet paper][3]
+ -  [Distributed routing as employed in Freenet][4]
+ -  [The Dark Freenet][5]
 
 
 [1]: http://inessential.com/2012/06/29/matthew_on_twitter_restrictions
