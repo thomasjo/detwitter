@@ -34,4 +34,15 @@ In addition, how is discovery supposed to work? How do we make sure this
 works behind a firewall, router with NAT and similar?
 
 
+## Resources
+- [Paper describing and comparing Gnutella and Freenet][2]
+- [The original Freenet paper][3]
+- [Distributed routing as employed in Freenet][4]
+- [The Dark Freenet][5]
+
+
 [1]: http://inessential.com/2012/06/29/matthew_on_twitter_restrictions
+[2]: http://www.sysdesign.ca/archive/berkes_gnutella_freenet.pdf
+[3]: https://freenetproject.org/papers/ddisrs.pdf
+[4]: https://freenetproject.org/papers/swroute.pdf
+[5]: https://freenetproject.org/papers/freenet-0.7.5-paper.pdf
